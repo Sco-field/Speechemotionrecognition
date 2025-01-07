@@ -6,7 +6,9 @@ It contains
 ## Citation
 - Anonymous authors. *Deep Learning-Based Feature Fusion for Emotion Analysis and Suicide Risk Differentiation in Chinese Psychological Support Hotlines*
 ## Download and install
-- Model checkpoints download: please download Wav2Vec 2.0, `transformers-cli download jonatasgrosman/wav2vec2-large-xlsr-53-chinese-zh-cn`, and put checkpoints to the models path.
+- Model checkpoints download: please download Wav2Vec 2.0,
+   `transformers-cli download jonatasgrosman/wav2vec2-large-xlsr-53-chinese-zh-cn`,
+  and put checkpoints to the models path.
 
 ## Code Explanations
 - [model_our.py](https://github.com/Sco-field/Speechemotionrecognition/blob/main/model_our.py) contains the model architecture of our proposed model,
