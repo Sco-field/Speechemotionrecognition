@@ -6,7 +6,7 @@ This repository contains material associated with the paper: "Deep Learning-Base
 - Anonymous authors. *Deep Learning-Based Feature Fusion for Emotion Analysis and Suicide Risk Differentiation in Chinese Psychological Support Hotlines*
 
 ## Code Explanations
-- [model_our.py](https://github.com/Sco-field/Speechemotionrecognition/blob/main/model_our.py)contains the model architecture of our proposed model,
+- [model_our.py](https://github.com/Sco-field/Speechemotionrecognition/blob/main/model_our.py) contains the model architecture of our proposed model,
 - [train_ours.py](https://github.com/Sco-field/Speechemotionrecognition/blob/main/train_ours.py) contains the data-preprocessing,trainning and evaluating progress.
 
 ## Related public dataset
