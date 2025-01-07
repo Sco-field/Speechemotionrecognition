@@ -123,7 +123,6 @@ model.freeze_feature_extractor()
 optimizer = torch.optim.AdamW(model.parameters(), lr=3e-5)
 criterion = nn.BCEWithLogitsLoss()
 for epoch in tqdm(range(epochs), desc="Training Epochs",leave=False):
-    break
     model.train()
     total_train_loss = 0.0
     for batch in tqdm(train_loader, desc="Training",leave=False):
