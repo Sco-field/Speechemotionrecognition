@@ -24,7 +24,7 @@ def set_seed(seed):
         torch.cuda.manual_seed_all(seed)
     torch.backends.cudnn.deterministic = True
     torch.backends.cudnn.benchmark = False
-set_seed(3408)
+set_seed(43)
 SAMPLE_RATE = 16000
 # 自定义配置类
 class CustomWav2Vec2Config(Wav2Vec2Config):
